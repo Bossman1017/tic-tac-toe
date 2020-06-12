@@ -6,7 +6,7 @@
   height: 100vh;
 }
 .logo{
-  background-color: white;
+  background-color: rgb(233, 226, 17);
   padding: 6px;
   display: grid;
   grid-template-columns: auto auto;
@@ -22,8 +22,9 @@
   display: flex;
 }
 .status{
-  font-size: 2.5rem;
-  margin: 25px;
+  font-size: 5rem;
+  margin: 50px;
+  color: gainsboro;
 }
 .winner{
   color: black;
@@ -64,4 +65,12 @@ img{
   width: 200px;
   border: 2px solid black;
   font-size: 10rem;
+  background:fixed ;
+  box-shadow:
+        0 0 60px 30px #fff,  
+        0 0 100px 60px #f0f, 
+        0 0 140px 90px #0ff;
+}
+body{
+  background: linear-gradient(green, yellow,blue);
 }
